@@ -1,0 +1,176 @@
+{
+  "version" : "1.0.1",
+  "name" : "multi-modal-artifactory",
+  "number" : "TEST",
+  "type" : "MAVEN",
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.6.2"
+  },
+  "agent" : {
+    "name" : "Maven",
+    "version" : "3.6.2"
+  },
+  "started" : "2020-06-15T13:55:41.121-0500",
+  "durationMillis" : 6160,
+  "vcs" : [ ],
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : false,
+    "licenseViolationsRecipientsList" : "",
+    "scopesList" : ""
+  },
+  "modules" : [ {
+    "properties" : {
+      "artifactory-maven.plugin.version" : "2.7.0",
+      "kotlin.version" : "1.3.72",
+      "artifactory-repository.name" : "ramsey-services",
+      "sonar.host.url" : "https://websystems.mgt.lampogroup.net/sonarqube/"
+    },
+    "id" : "org.example:svc:1.0.0",
+    "artifacts" : [ {
+      "type" : "jar",
+      "sha1" : "1481bb2370156d5a10733449c2f428773441e953",
+      "md5" : "a1dc5b104df69f7be327058eec255778",
+      "name" : "svc-1.0.0.jar"
+    }, {
+      "type" : "pom",
+      "sha1" : "c973952f20c4efcaad4dbb35d653827c545ce132",
+      "md5" : "c1e4fa7163eadae2b715367cc657d07f",
+      "name" : "svc-1.0.0.pom"
+    } ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "8032138f12c0180bc4e51fe139d4c52b46db6109",
+      "md5" : "7dea2e32e4b71f48d8863dbef721b408",
+      "id" : "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "916d54b9eb6442b615e6f1488978f551c0674720",
+      "md5" : "060ea8ff676c976e622f9ae14eac1751",
+      "id" : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "3adfc2f4ea4243e01204be8081fe63bde6b12815",
+      "md5" : "ec6da201a772809331172ed63ec0f3c0",
+      "id" : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "52db57b3bc7d3a1381978e93e061159e2114d60c",
+      "md5" : "4642a39ed87bdde4e25d9c0273ebc4b7",
+      "id" : "org.jetbrains.kotlin:kotlin-test:1.3.72",
+      "scopes" : [ "test" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "92aa1317f68727e77867727c2bd2a2f4460116b2",
+      "md5" : "9271a951222fe2ff69adb5c37977c36d",
+      "id" : "org.jetbrains.kotlin:kotlin-test-common:1.3.72",
+      "scopes" : [ "test" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "6ca8bee3d88957eaaaef077c41c908c9940492d8",
+      "md5" : "9c36600bc1179cd6b79a9eb51fefb238",
+      "id" : "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "919f0dfe192fb4e063e7dacadee7f8bb9a2672a9",
+      "md5" : "f4fb462172517b46b6cd90003508515a",
+      "id" : "org.jetbrains:annotations:13.0",
+      "scopes" : [ "compile" ]
+    } ]
+  }, {
+    "properties" : {
+      "artifactory-maven.plugin.version" : "2.7.0",
+      "kotlin.version" : "1.3.72",
+      "artifactory-repository.name" : "libs-release",
+      "sonar.host.url" : "https://websystems.mgt.lampogroup.net/sonarqube/"
+    },
+    "id" : "org.example:sdk:1.0.0",
+    "artifacts" : [ {
+      "type" : "jar",
+      "sha1" : "91df310578bbbb54269cc48ba27c87870f3d3b3c",
+      "md5" : "22ca98bbadb954fb8f5f37caf4ecd9a0",
+      "name" : "sdk-1.0.0.jar"
+    }, {
+      "type" : "pom",
+      "sha1" : "8df15b6ca6faaecfdd00d1a0d2a0fcf416b9cdf2",
+      "md5" : "12e4449b4639763643f52c7581abe075",
+      "name" : "sdk-1.0.0.pom"
+    } ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "8032138f12c0180bc4e51fe139d4c52b46db6109",
+      "md5" : "7dea2e32e4b71f48d8863dbef721b408",
+      "id" : "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "1481bb2370156d5a10733449c2f428773441e953",
+      "md5" : "a1dc5b104df69f7be327058eec255778",
+      "id" : "org.example:svc:1.0.0",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "916d54b9eb6442b615e6f1488978f551c0674720",
+      "md5" : "060ea8ff676c976e622f9ae14eac1751",
+      "id" : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "3adfc2f4ea4243e01204be8081fe63bde6b12815",
+      "md5" : "ec6da201a772809331172ed63ec0f3c0",
+      "id" : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "52db57b3bc7d3a1381978e93e061159e2114d60c",
+      "md5" : "4642a39ed87bdde4e25d9c0273ebc4b7",
+      "id" : "org.jetbrains.kotlin:kotlin-test:1.3.72",
+      "scopes" : [ "test" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "92aa1317f68727e77867727c2bd2a2f4460116b2",
+      "md5" : "9271a951222fe2ff69adb5c37977c36d",
+      "id" : "org.jetbrains.kotlin:kotlin-test-common:1.3.72",
+      "scopes" : [ "test" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "6ca8bee3d88957eaaaef077c41c908c9940492d8",
+      "md5" : "9c36600bc1179cd6b79a9eb51fefb238",
+      "id" : "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "919f0dfe192fb4e063e7dacadee7f8bb9a2672a9",
+      "md5" : "f4fb462172517b46b6cd90003508515a",
+      "id" : "org.jetbrains:annotations:13.0",
+      "scopes" : [ "compile" ]
+    } ]
+  }, {
+    "properties" : {
+      "artifactory-maven.plugin.version" : "2.7.0",
+      "artifactory-repository.name" : "libs-release",
+      "sonar.host.url" : "https://websystems.mgt.lampogroup.net/sonarqube/"
+    },
+    "id" : "org.example:multi-modal-artifactory:1.0.0",
+    "artifacts" : [ {
+      "type" : "pom",
+      "sha1" : "dcae5e40aeba53fa7d81930fc5b9c8f0e4391a91",
+      "md5" : "1634bda672cad6f687d684178468de49",
+      "name" : "multi-modal-artifactory-1.0.0.pom"
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}
