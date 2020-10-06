@@ -47,7 +47,7 @@
                                 </publisher>
                                 <buildInfo>
                                     <buildName>${project.artifactId}</buildName>
-                                    <buildNumber>TEST</buildNumber>
+                                    <buildNumber>{{BUILD_NUMBER}}</buildNumber>
                                 </buildInfo>
                             </configuration>
                         </execution>
